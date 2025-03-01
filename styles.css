@@ -1,0 +1,103 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #fae1dd;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.countdown {
+    position: relative;
+    margin-top: -400px;
+}
+
+.countdown #text-click {
+    position: relative;
+    margin-top: 10px;
+}
+
+.flower {
+    position: relative;
+}
+
+.letters {
+    position: absolute;
+    width: 65px;
+    transition: 10s ease-in-out;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.letters img {
+    width: 100%;
+}
+
+.textLetter {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.textLetter h2 {
+    font-size: 30px;
+}
+
+.textLetter .contentLetter {
+    font-size: 19px;
+}
+
+.hearts {
+    position: absolute;
+}
+
+.hearts .one {
+    top: 50px;
+}
+
+.hearts .two {
+    top: 15px;
+}
+
+.hearts .three {
+    top: 65px;
+}
+
+.hearts .four {
+    top: 30px;
+}
+
+.hearts .five {
+    top: 55px;
+}
+
+.heartAnimation {
+    animation-delay: -1s;
+}
+
+.wrapperLetterForm {
+    position: fixed;
+}
+
+.giftbox {
+    position: absolute;
+}
+
+.giftbox .img {
+    top: -10px;
+}
